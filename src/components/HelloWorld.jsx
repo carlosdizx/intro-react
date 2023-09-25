@@ -1,8 +1,9 @@
-const HelloWorld  = () => {
+const HelloWorld  = ({user, id}) => {
+    // const name = 'Ernesto'
     return (
         <>
             <h1>Hola mundo</h1>
-            <p>Que tal!</p>
+            <p>Que tal {user}! con id: {id}</p>
         </>
     )
 }
